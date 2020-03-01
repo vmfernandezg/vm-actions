@@ -85,7 +85,7 @@ try {
         --admin-password $adminPassword
     }
 catch {
-    Write-Output "VM already exists"
+    Write-Output "VM already exists..."
     }
 Write-Output "Done creating VM"
 Write-Output ""
